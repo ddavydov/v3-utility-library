@@ -872,3 +872,7 @@ InfoBox.prototype.close = function () {
 
   this.setMap(null);
 };
+
+if (typeof module == 'object') {
+  module.exports = InfoBox;
+}
